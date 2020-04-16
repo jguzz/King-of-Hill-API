@@ -1,24 +1,18 @@
-# README
+# Mod 3 Project
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A King of the Hill fighting game!
 
-Things you may want to cover:
+TO INSTALL:
 
-* Ruby version
+- Fork the repo
+- Copy the clone link
+- In your terminal run `git clone *clone-link*`
 
-* System dependencies
+TO RUN:
+Backend:
 
-* Configuration
+- While in the mod-3-api folder, run rails s
+  Frontend:
+- copy the path for index.html then go to the path in a web browser.
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Created by John Reiner & Joseph Guzzardo
