@@ -1,0 +1,4 @@
+class UserSerializer < ActiveModel::Serializer
+
+  attributes :id, :name, :password, :level_id, :score_id, :character_id
+end
