@@ -10,8 +10,8 @@ Level.destroy_all
 Score.destroy_all
 Character.destroy_all
 
-User.create([name: 'John', password: '7456', score_id: 1, level_id: 1, character_id: 1])
-User.create([name: 'Joey', password: '123', score_id: 1, level_id: 1, character_id: 1])
+User.create([name: 'John', highscore: 10 , score_id: 1, level_id: 1, character_id: 1])
+User.create([name: 'Joey', highscore: 5, score_id: 1, level_id: 1, character_id: 1])
 Level.create([name: 'Fire Land', difficulty: 'Hard'])
 Score.create([highscore: 300])
 Character.create([name: 'Wizzard'])
